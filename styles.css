@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  
+
+}
+
+.main, .thank-you{
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 30px;
+  width: 412px;
+  height: 416px;
+}
+
+.thank-you{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.unseen{
+  display: none;
+}
+
+.main img{
+  background-color:hsl(214, 19%, 21%);
+  border-radius: 50%;
+  padding: 0.625rem;
+}
+
+.main h1{
+  color: hsl(0, 0%, 100%);
+  margin: 1rem 0  1rem;
+  
+}
+
+.main p{
+  margin-bottom: 1rem;
+  line-height: 1.6rem;
+}
+
+.para{
+  color: hsl(217, 12%, 63%);
+  
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding-left: 0;
+  
+}
+
+ul li button{
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-color: hsl(214, 19%, 21%);
+  color: white;
+  cursor: pointer;
+}
+
+ul li button:hover{
+  background-color:hsl(25, 97%, 53%);
+}
+
+ul li button:focus{
+  background-color: hsl(217, 12%, 63%);
+}
+
+.submit-btn{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.submit-btn:hover{
+  background-color: white;
+  color:hsl(25, 97%, 53%);
+}
+
+.thank-you img{
+  margin: 0 auto 2rem;
+}
+
+.selected-p{
+  background-color: hsl(213, 20%, 22%);
+  color: hsl(25, 97%, 53%);
+  margin-bottom: 1.8rem;
+  border-radius: 1rem;
+  padding: 0.1rem 0.5rem;
+  font-size: 13px;
+}
+
+.thank-you h1{
+  color: white;
+  margin-bottom: 1rem;
+}
+.thank-you p{
+  line-height: 1.6rem;
+  font-size: 16px;
+}
